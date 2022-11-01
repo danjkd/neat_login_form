@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik Marker Hatch", cursive;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1616352360961-cce3fb07d8ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1002&q=80");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card form {
+  width: 330px;
+  height: 350px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.card form h1 {
+  font-size: 2rem;
+  margin-bottom: 22px;
+  color: rgb(163, 4, 4);
+}
+
+.card form input {
+  width: 80%;
+  height: 40px;
+  margin: 12px 0;
+  border: none;
+  outline: none;
+  background: hsl(0, 0%, 94%);
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.card form input:focus {
+  box-shadow: 1px 1px 15px rgb(163, 4, 4);
+  transition: 0.5s;
+}
+
+.card form button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background: rgb(163, 4, 4);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card form button:hover {
+  box-shadow: 1px 1px 15px rgb(163, 4, 4);
+}
