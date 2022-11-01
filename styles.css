@@ -22,7 +22,7 @@
 .card form {
   width: 330px;
   height: 350px;
-  background-color: #fff;
+  background-color: rgba(250, 248, 248, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@
 .card form h1 {
   font-size: 2rem;
   margin-bottom: 22px;
-  color: rgb(163, 4, 4);
+  color: rgba(163, 4, 4, 0.7);
 }
 
 .card form input {
@@ -57,7 +57,7 @@
   margin-top: 20px;
   outline: none;
   border: none;
-  background: rgb(163, 4, 4);
+  background: rgba(163, 4, 4, 0.7);
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
